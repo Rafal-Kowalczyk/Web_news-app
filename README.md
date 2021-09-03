@@ -1,4 +1,4 @@
-A project based on the idea of J. Smilg
+A project based on the idea of J. Smilga
 
 # Getting Started with Create React App
 
