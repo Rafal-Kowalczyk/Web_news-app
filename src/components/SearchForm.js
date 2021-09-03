@@ -1,6 +1,6 @@
 import React from "react";
-import { useGlobalContext } from "../../context/context";
-import "../../styles/searchForm.scss";
+import { useGlobalContext } from "../context/context";
+import "../styles/searchForm.scss";
 
 function SearchForm() {
   const { query, handleSearch } = useGlobalContext();

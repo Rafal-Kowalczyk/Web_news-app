@@ -1,7 +1,7 @@
 import React from "react";
-import { useGlobalContext } from "../../context/context";
+import { useGlobalContext } from "../context/context";
 
-import "../../styles/buttonsNav.scss";
+import "../styles/buttonsNav.scss";
 
 function ButtonsNav() {
   const { isLoading, page, nbPages, handlePage } = useGlobalContext();

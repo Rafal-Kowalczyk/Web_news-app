@@ -1,7 +1,7 @@
 import React from "react";
-import { useGlobalContext } from "../../context/context";
+import { useGlobalContext } from "../context/context";
 
-import "../../styles/storiesContent.scss";
+import "../styles/storiesContent.scss";
 
 function StoriesContent() {
   const { isLoading, hits, removeStory } = useGlobalContext();
