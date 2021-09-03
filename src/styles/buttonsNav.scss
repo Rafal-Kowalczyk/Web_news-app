@@ -1,0 +1,31 @@
+.btn-container {
+  width: 90vw;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .btn-desc {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .btn-nav {
+    margin: 1rem;
+    padding: 0.25rem 0.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-color: transparent;
+    background: rgb(73, 166, 233);
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
+}

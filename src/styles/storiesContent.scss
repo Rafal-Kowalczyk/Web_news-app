@@ -1,0 +1,48 @@
+.stories {
+  width: 90vw;
+  max-width: 97rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  display: grid;
+  gap: 2rem;
+
+  @media screen and (min-width: 992px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  &__story {
+    background: #fff;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    line-height: 1.5;
+    margin-bottom: 0.25rem;
+  }
+  &__info {
+    margin-bottom: 0.5rem;
+    color: rgb(97, 125, 152);
+  }
+
+  &__read {
+    font-size: 0.85rem;
+    margin-right: 0.75rem;
+    text-transform: capitalize;
+    color: rgb(73, 166, 233);
+    letter-spacing: 1px;
+  }
+
+  &__remove {
+    background: transparent;
+    color: rgb(187, 37, 37);
+    border-color: transparent;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 0.85rem;
+  }
+}
